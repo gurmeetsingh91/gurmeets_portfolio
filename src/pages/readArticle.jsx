@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import styled from "styled-components";
+import backButtonImage from "../assets/back-button.png"
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -49,7 +50,7 @@ const ReadArticle = () => {
 					<div className="read-article-container">
 						<div className="read-article-back">
 							<img
-								src="../back-button.png"
+								src={backButtonImage}
 								alt="back"
 								className="read-article-back-button"
 								onClick={() => navigate(-1)}

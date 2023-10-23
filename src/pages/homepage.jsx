@@ -8,6 +8,7 @@ import {
 	faGithub,
 	
 } from "@fortawesome/free-brands-svg-icons";
+import homepageImage  from "../assets/homepage.jpg"
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
@@ -102,7 +103,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src={homepageImage}
 											alt="about"
 											className="homepage-image"
 										/>

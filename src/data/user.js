@@ -1,9 +1,11 @@
+import logoimage from "../assets/logo.png"
+
 const INFO = {
 	main: {
 		title: "Gurmeets Portfolio",
 		name: "Gurmeet Singh",
 		email: "g.singh91@outlook.com",
-		logo: "../logo.png",
+		logo: logoimage,
 	},
 
 	socials: {
